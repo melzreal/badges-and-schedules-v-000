@@ -28,6 +28,6 @@ def printer(attendees)
   all_together.push(batch_badge_creator(attendees),assign_rooms(attendees))
  
   all_together.each do |show|
-    print show
+    print show.chomp
   end
 end
