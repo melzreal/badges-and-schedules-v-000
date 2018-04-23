@@ -25,7 +25,7 @@ end
 
 def printer(attendees) 
   all_together = Array.new
-  all_together.push(batch_badge_creator(attendees),assign_rooms(attendees))
+
  
-  puts all_together[0]
+ print batch_badge_creator(attendees), assign_rooms(attendees))
 end
