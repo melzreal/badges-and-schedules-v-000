@@ -27,6 +27,7 @@ def printer(attendees)
   all_together = Array.new
   all_together.push(batch_badge_creator(attendees),assign_rooms(attendees))
  
-  puts all_together
-  
+  all_together.each do |show|
+    puts show
+  end
 end
