@@ -24,8 +24,6 @@ end
 
 
 def printer(attendees) 
-  all_together = Array.new
-
  
  print batch_badge_creator(attendees), assign_rooms(attendees))
 end
