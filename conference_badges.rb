@@ -31,5 +31,6 @@ def printer(attendees)
   
   assign_rooms(attendees).each do |show|
     puts show 
-  end
+  end 
+  
 end
