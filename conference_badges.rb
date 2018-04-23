@@ -24,7 +24,7 @@ end
 
 
 def printer(attendees) 
-  all_together = []
+  all_together = arr.New
   all_together.push(batch_badge_creator(attendees),assign_rooms(attendees))
  
   puts all_together
